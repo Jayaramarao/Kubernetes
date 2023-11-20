@@ -6,5 +6,4 @@ metadata:
 spec:
   containers:
   - name: stress
-    images: jayaramarao/stress
-    
+    image: jayaramarao/stress
