@@ -4,6 +4,5 @@ metedata:
   name: pd1
 spec:
   containers:
-    - image: nginx
-    - name: c1
-    
+  - image: nginx
+  - name: c1
