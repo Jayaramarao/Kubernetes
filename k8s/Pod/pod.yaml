@@ -5,4 +5,4 @@ metedata:
 spec:
   containers:
   - image: nginx
-  - name: c1
+    name: c1
