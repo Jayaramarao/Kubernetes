@@ -5,8 +5,8 @@ metadata:
   labels:
     course: k8s
     duration: "10min"
+    image: "www://http.docker.io"
 spec:
   containers:
   -  name: c1
      image: nginx
-     
