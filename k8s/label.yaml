@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: labelpod
+  labels:
+    course: k8s
+    duration: "10min"
+spec:
+  containers:
+  -  name: c1
+     image: nginx
+     
