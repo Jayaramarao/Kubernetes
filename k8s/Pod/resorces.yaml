@@ -7,3 +7,11 @@ spec:
   - name: stress
     image: jayaramarao/stress
     command: ["sleep","200"]
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limitis:
+        memory: "128Mi"
+        cpu: "500m"
+      
