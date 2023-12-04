@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: annotation-pod
+  annotations:
+    coruse: k8s
+    iamgerigistry: www:https://docker.io
+spec:
+  containers:
+  -  name: c1
+     image: nginx

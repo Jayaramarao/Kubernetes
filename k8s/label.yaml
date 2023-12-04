@@ -5,7 +5,7 @@ metadata:
   labels:
     course: k8s
     duration: "10min"
-    image: "www://http.docker.io"
+    image: dockerimage
 spec:
   containers:
   -  name: c1
